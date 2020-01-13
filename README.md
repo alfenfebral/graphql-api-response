@@ -11,6 +11,7 @@ Rest API Response
 ```javascript
     HTTP/1.1 200
     Content-Type: application/json
+ 
     ---Request Body--
     {
 	    "query": "query { books { id name genre imageUrl author { id name age } } }"
