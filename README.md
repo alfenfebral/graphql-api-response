@@ -14,7 +14,7 @@ Rest API Response
  
     ---Request Body--
     {
-	    "query": "query { books { id name genre imageUrl author { id name age } } }"
+    	"query": "query { books { id name genre imageUrl author { id name age } } }"
     }
     ---End Request Body---
     
