@@ -15,23 +15,19 @@ http://removelinebreaks.net/
 ## Rest API Success Responses
 
 1- POST - Get All Item - HTTP Response Code: **200**
+Request
 ```javascript
-    HTTP/1.1 200
-    Content-Type: application/json
- 
-    ---Request Body--
-    {
-    	"query": "query { books { id name genre imageUrl author { id name age } } }"
-    }
-    ---End Request Body---
-    
-    ---Response---
-    {
-        "status": "success",
-        "code": 200,
-        "data": {
-            "name": "Item 1"
-        }
-    }
-    ---End Response---
+query {
+  books {
+    name
+  }
+}
+```
+Response
+```javascript
+{
+  "data": {
+    "books": null
+  }
+}
 ```
