@@ -15,6 +15,7 @@ http://removelinebreaks.net/
 ## Rest API Success Responses
 
 1- POST - Get All Item - HTTP Response Code: **200**
+
 Request
 ```javascript
 query {
